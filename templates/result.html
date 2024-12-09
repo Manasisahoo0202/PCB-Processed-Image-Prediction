@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prediction Result</title>
+</head>
+<body>
+    <h1>Prediction Result</h1>
+    <p>The predicted grey value is: {{ prediction }}</p>
+
+    <p>Confusion Matrix:
+        {{ cm }}
+    </p>
+    <p>Accuracy: {{ accuracy }}</p>
+    <p>Precision: {{ precision }}</p>
+    <p>Recall: {{ recall }}</p>
+    <p>F1-Score: {{ f1 }}</p>
+    <p>AUC-ROC: {{ auc_roc }}</p>
+
+</body>
+</html>
